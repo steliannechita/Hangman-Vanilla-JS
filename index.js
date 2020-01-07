@@ -77,6 +77,9 @@ const checkGameWon = () => {
     document.getElementById(
       "keyboard"
     ).innerHTML = `<h2 style='color:red'>You won!</h2>`; //displays the user with the winning message
+    document.getElementById(
+      "display-message"
+    ).innerHTML = `<h5 style='color:red'>Congratulations!</h5>`; //displays the solution to the user
   }
 };
 
